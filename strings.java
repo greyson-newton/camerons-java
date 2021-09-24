@@ -1,27 +1,37 @@
+import java.util.Scanner;
 public class strings
 {	public static void main(String[] args)
-	{	String s1 = "Computer Science";
-		int x = 307;
-		String s2 = s1 + " " + x;
-		String s3 = s2.substring(10,17);
-		String s4 = "is fun";
-		String s5 = s2 + s4;
+	{	
+		bool verified=False
 
-		System.out.println("s1: " + s1);
-		System.out.println("s2: " + s2);
-		System.out.println("s3: " + s3);
-		System.out.println("s4: " + s4);
-		System.out.println("s5: " + s5);
+		String rhyme="";
+		System.out.println("\tyeeeeeeeeHAAAA\n------------");// prints out a title,
+	    Scanner myObj = new Scanner(System.in);  // Create a Scanner object
+	    System.out.println("Enter an alter ego:");	// requests a name from the user,
+	    String userName = myObj.nextLine(); //stores
+	    verified=verification(username);	// verifies the name
+	    if verified{
+		    ryhme();		// creates and printsthe verse or rhyme as indicated in the video,
+		    output();	    //thanks user	
+	    }
+	    else{
+	    	//handles wrong name input
+	    	System.out.println("\n------------\n\tu crashedit\n------------");
+	    }
 
-		//showing effect of precedence
-
-		x = 3;
-		int y = 5;
-		String s6 = x + y + "total";
-		String s7 = "total " + x + y;
-		String s8 = " " + x + y + "total";
-		System.out.println("s6: " + s6);
-		System.out.println("s7: " + s7);
-		System.out.println("s8: " + s8);
 	}
+	public bool verification(String s) //name need for ver.
+	{
+		//codein verification rules
+	}
+	public void rhyme() //what input do you need for this?
+	{
+		//codein rhyme rules
+		System.out.println("your rhyme: "+rhyme)
+	}
+	public void output()
+	{
+		System.out.println("Thanksfor your ip ");
+	}
+
 }
