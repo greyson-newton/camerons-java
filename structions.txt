@@ -1,0 +1,20 @@
+Write a Java program that:
+
+prints out a title,
+requests a name from the user,
+verifies the name
+creates the verse or rhyme as indicated in the video,
+prints out the verse, and
+thank the user for using the program. 
+Spend some time on formatting and make this look nice.
+
+Special Rules:
+
+If the name entered is your first name, print out a special message before the verse.
+Certain names make this game go from the student-friendly, family-oriented game that it is intended to be, to a surprising awakening for certain people's names.  You must check first and not allow this to happen.
+Mitch and Tucker are two examples.
+Sound the bell when this happens (Print the character '\u0007')
+Print out a friendly statement that does not allow the user to continue. Then exit.
+For names with 2 consonants at the front, remove the first 2 letters. Examples are Thanos, Philip, and Steve.
+For names beginning in double vowels, remove only the first vowel. An example is Aaron.
+If a name you can think of doesn't fit in these rules, Print out a message that says "A little trick with (name)" then handle it as if you wrote the rules for that name.
